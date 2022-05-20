@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+}
+
+.header {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../assets/images/test_image.jpg);
+  background-size: cover;
+  min-height: 30vh;
+  color: hsla(0, 0%, 100%, 0.89);
+  text-align: center;
+}
+
+.header-text {
+  text-shadow: 0 1px 0 rgb(0 0 0 / 20%), 0 0 10px #000, 0 0 50px #000;
+}
+
+.header-text h1 {
+  margin: 2em;
+}
+
+.navbar {
+  background-color: black;
+}
+
+.navbar ul {
+  display: flex;
+}
+
+.navbar ul li {
+  list-style: none;
+  padding: 2em;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+}
+
+/* img {
+  width: 100%;
+} */
