@@ -4,23 +4,16 @@
 
 .header {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url(../assets/images/test_image.jpg);
+    url(https://albion-player-info.vercel.app/static/media/lands-awakened.fd65a6a1240998255b76.jpeg);
   background-size: cover;
+  background-position: center;
   min-height: 30vh;
   color: hsla(0, 0%, 100%, 0.89);
   text-align: center;
 }
 
-.header-text {
-  text-shadow: 0 1px 0 rgb(0 0 0 / 20%), 0 0 10px #000, 0 0 50px #000;
-}
-
-.header-text h1 {
-  margin: 2em;
-}
-
 .navbar {
-  background-color: black;
+  background-color: #17628a;
 }
 
 .navbar ul {
@@ -37,6 +30,33 @@
   text-decoration: none;
 }
 
-/* img {
-  width: 100%;
-} */
+.header-text {
+  text-shadow: 0 1px 0 rgb(0 0 0 / 20%), 0 0 10px #000, 0 0 50px #000;
+}
+
+.header-text h1 {
+  font-size: 2.5vmax;
+  margin: 1.5em;
+}
+
+main {
+  background-color: #023753;
+}
+
+.regears-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.player-death {
+  background-color: #c9f0ff;
+  border-radius: 10px;
+
+  margin: 0.5em auto;
+  padding: 1em;
+  flex-basis: 30%;
+}
+
+.player-death p {
+  margin: 0.25em;
+}
