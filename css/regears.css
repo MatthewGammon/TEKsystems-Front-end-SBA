@@ -1,0 +1,43 @@
+.regears table {
+  margin: 0 auto;
+  overflow-x: scroll;
+}
+
+.regears h2 {
+  text-align: center;
+  color: #023753;
+  padding: 1.5em;
+  background-color: #c9f0ff;
+  border-radius: 10px;
+}
+
+.regears-list {
+  display: flex;
+  justify-content: center;
+  margin: 3em 0em;
+}
+
+.regears-list table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.regears-list table tr:nth-child(even) {
+  background-color: #023753;
+  color: white;
+  /* background-color: #17628a; */
+  color: white;
+}
+
+.regears-list td {
+  padding: 1.25em;
+}
+
+.table-headers {
+  color: white;
+  font-size: 1.325rem;
+}
+
+.player-death {
+  background-color: #c9f0ff;
+}
