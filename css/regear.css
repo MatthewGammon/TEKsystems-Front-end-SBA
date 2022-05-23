@@ -1,0 +1,33 @@
+.regear-info,
+.regear-form {
+  background-color: #c9f0ff;
+  margin: 1.5em;
+  padding: 1em;
+  border-radius: 5px;
+}
+
+.regear-info h2 {
+  padding: 0.5em 0em;
+}
+
+.regear-info p {
+  padding: 0.125em 0em;
+}
+
+fieldset {
+  border: 1px solid #17628a;
+  border-radius: 4px;
+}
+
+.regear-form label {
+  display: inline-block;
+  width: 10%;
+}
+
+.regear-form input,
+.regear-form select {
+  margin: 0.5em;
+  padding: 0.5em;
+  border: 1px solid #17628a;
+  border-radius: 4px;
+}
