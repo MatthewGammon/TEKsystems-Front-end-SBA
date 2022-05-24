@@ -1,14 +1,26 @@
-.regears table {
-  margin: 0 auto;
-  overflow-x: scroll;
+.tidal-logo {
+  width: 100%;
+  min-height: 50vh;
+  background-image: url(../assets/images/Tidal-Logo-Background.png);
+  background-size: cover;
+  background-position: center;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.tidal-logo h2 {
+  text-align: center;
+  color: #c9f0ff;
+  padding: 1.5em;
+  font-size: 2rem;
 }
 
 .regears h2 {
   text-align: center;
-  color: #023753;
   padding: 1.5em;
   background-color: #c9f0ff;
-  border-radius: 10px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
 }
 
 .regears-list {
@@ -20,22 +32,26 @@
 .regears-list table {
   border-collapse: collapse;
   width: 100%;
+  margin: 0 auto;
+  overflow-x: scroll;
 }
 
-.regears-list table tr:nth-child(even) {
+.regears-list table tr:nth-child(odd) {
   background-color: #023753;
-  color: white;
-  /* background-color: #17628a; */
   color: white;
 }
 
 .regears-list td {
-  padding: 1.25em;
+  text-align: center;
+  padding: 1em 1.5em;
 }
 
-.table-headers {
-  color: white;
-  font-size: 1.325rem;
+.table-headers th {
+  text-align: center;
+  background-color: #c9f0ff;
+  color: black;
+  font-size: 1.25rem;
+  padding: 1em;
 }
 
 .player-death {
