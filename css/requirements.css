@@ -1,0 +1,43 @@
+.requirements {
+  background-color: #c9f0ff;
+  margin: 1.5em;
+  padding: 1em;
+  border-radius: 5px;
+}
+
+.requirements h2,
+.requirements h3,
+.requirements h4 {
+  padding: 0.5em 0em;
+}
+
+.basic-requirements,
+.tier-equivalent,
+.disclaimer,
+.approved-roles,
+.fines {
+  padding: 0.5em;
+}
+
+.requirements-media {
+  margin: 1.5em;
+}
+
+.approved-builds,
+.battlemount-builds {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.builds,
+.battlemounts {
+  padding: 1.5em 0em;
+}
+
+.battlemounts h2 {
+  background-color: #c9f0ff;
+  text-align: center;
+  padding: 1em;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
