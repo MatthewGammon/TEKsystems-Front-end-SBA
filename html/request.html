@@ -6,16 +6,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="../css/styles.css" />
     <link rel="stylesheet" href="../css/request.css" />
+     <!-- imported web-font -->
+     <link rel="preconnect" href="https://fonts.googleapis.com" />
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+     <link
+       href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600&display=swap"
+       rel="stylesheet"
+     />
     <title>Tidal Regears | Submit Request</title>
   </head>
   <body>
     <nav class="navbar">
-      <ul>
-        <li><a href="../index.html">Home</a></li>
-        <li><a href="./regears.html">Regears</a></li>
-        <li><a href="#About">Requirements</a></li>
-        <li><a href="./request.html">Request a Regear</a></li>
-      </ul>
+      <a href="../index.html">Home</a>
+        <a href="./regears.html">Regears</a>
+        <a href="#About">Requirements</a></li>
+        <a href="./request.html">Request a Regear</a>
     </nav>
     <header class="header">
       <div class="header-text">
@@ -48,25 +53,181 @@
         >
           <fieldset class="player-info">
             <legend>Player Info:</legend>
-            <label for="player-name">Player Name:</label>
+            <label class="player-info-label" for="player-name"
+              >Player Name:</label
+            >
             <input type="text" name="player-name" id="player-name" required />
             <br />
-            <label for="guild">Guild:</label>
+            <label class="player-info-label" for="guild">Guild:</label>
             <input type="text" name="guild" id="guild" value="Tidal" readonly />
           </fieldset>
           <br />
           <fieldset class="gear-info">
             <legend>Gear Info:</legend>
-            <label class="item-power" for="item-power">Item Power:</label>
+            <label class="item-power gear-info-label" for="item-power"
+              >Item Power:</label
+            >
             <input type="number" min="1350" value="1350" required />
             <br />
-            <label class="main-hand" for="main-hand">Main Hand:</label>
+            <label class="main-hand gear-info-label" for="main-hand"
+              >Main Hand:</label
+            >
             <br />
-            <label class="head-armor" for="head-armor">Head:</label>
+            <p>Main Hand Enchantment:</p>
+            <input
+              type="radio"
+              id="0"
+              name="main-hand-enchantment"
+              value="0"
+              required
+            />
+             
+            <label class="enchantment-label" for="0">0</label>
+            <input
+              type="radio"
+              id=".1"
+              name="main-hand-enchantment"
+              value=".1"
+            />
+             
+            <label class="enchantment-label" for=".1">.1</label>
+             
+            <input
+              type="radio"
+              id=".2"
+              name="main-hand-enchantment"
+              value=".2"
+            />
+             
+            <label class="enchantment-label" for=".2">.2</label>
+             
+            <input
+              type="radio"
+              id=".3"
+              name="main-hand-enchantment"
+              value=".3"
+            />
+              <label class="enchantment-label" for=".3">.3</label>
             <br />
-            <label class="chest-armor" for="chest-armor">Chest:</label>
+            <label class="head-armor gear-info-label" for="head-armor"
+              >Head:</label
+            >
             <br />
-            <label class="shoe-armor" for="shoe-armor">Shoes:</label>
+            <p>Head Enchantment:</p>
+            <input
+              type="radio"
+              id="head-0"
+              name="head-enchantment"
+              value="0"
+              required
+            />
+             
+            <label class="enchantment-label" for="head-0">0</label>
+            <input
+              type="radio"
+              id="head-.1"
+              name="head-enchantment"
+              value=".1"
+            />
+             
+            <label class="enchantment-label" for="head-.1">.1</label>
+             
+            <input
+              type="radio"
+              id="head-.2"
+              name="head-enchantment"
+              value=".2"
+            />
+             
+            <label class="enchantment-label" for="head-.2">.2</label>
+             
+            <input
+              type="radio"
+              id="head-.3"
+              name="head-enchantment"
+              value=".3"
+            />
+              <label class="enchantment-label" for="head-.3">.3</label>
+            <br />
+            <label class="chest-armor gear-info-label" for="chest-armor"
+              >Chest:</label
+            >
+            <br />
+            <p>Chest Enchantment:</p>
+            <input
+              type="radio"
+              id="chest-0"
+              name="chest-enchantment"
+              value="0"
+              required
+            />
+             
+            <label class="enchantment-label" for="chest-0">0</label>
+            <input
+              type="radio"
+              id="chest-.1"
+              name="chest-enchantment"
+              value=".1"
+            />
+             
+            <label class="enchantment-label" for="chest-.1">.1</label>
+             
+            <input
+              type="radio"
+              id="chest-.2"
+              name="chest-enchantment"
+              value=".2"
+            />
+             
+            <label class="enchantment-label" for="chest-.2">.2</label>
+             
+            <input
+              type="radio"
+              id="chest-.3"
+              name="chest-enchantment"
+              value=".3"
+            />
+              <label class="enchantment-label" for="chest-.3">.3</label>
+            <br />
+            <label class="shoe-armor gear-info-label" for="shoe-armor"
+              >Shoes:</label
+            >
+            <br />
+            <p>Shoes Enchantment:</p>
+            <input
+              type="radio"
+              id="shoe-0"
+              name="shoe-enchantment"
+              value="0"
+              required
+            />
+             
+            <label class="enchantment-label" for="shoe-0">0</label>
+            <input
+              type="radio"
+              id="shoe-.1"
+              name="shoe-enchantment"
+              value=".1"
+            />
+             
+            <label class="enchantment-label" for="shoe-.1">.1</label>
+             
+            <input
+              type="radio"
+              id="shoe-.2"
+              name="shoe-enchantment"
+              value="shoe.2"
+            />
+             
+            <label class="enchantment-label" for="shoe-.2">.2</label>
+             
+            <input
+              type="radio"
+              id="shoe-.3"
+              name="shoe-enchantment"
+              value="shoe-.3"
+            />
+              <label class="enchantment-label" for="shoe-.3">.3</label>
           </fieldset>
           <br />
           <fieldset class="event-info">
