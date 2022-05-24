@@ -29,7 +29,7 @@ body {
 .navbar a {
   color: white;
   text-decoration: none;
-  padding: 2em;
+  padding: 1.5em;
   /* web-font requirement */
   font-family: 'Cormorant Garamond', serif;
   font-size: 1.5rem;
