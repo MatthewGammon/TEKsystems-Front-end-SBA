@@ -24,6 +24,11 @@ fieldset {
   width: 10%;
 }
 
+.regear-form .enchantment-label {
+  display: inline-block;
+  width: 2%;
+}
+
 .regear-form input,
 .regear-form select {
   margin: 0.5em;
