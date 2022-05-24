@@ -41,17 +41,37 @@
   color: white;
 }
 
-.regears-list td {
-  text-align: center;
-  padding: 1em 1.5em;
-}
-
 .table-headers th {
   text-align: center;
   background-color: #c9f0ff;
   color: black;
   font-size: 1.25rem;
   padding: 1em;
+}
+
+.table-headers th:first-child {
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.table-headers th:last-child {
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.regears-list td {
+  text-align: center;
+  padding: 0.5em 1.5em;
+}
+
+.regears-list td:first-child {
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.regears-list td:last-child {
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
 }
 
 .player-death {
