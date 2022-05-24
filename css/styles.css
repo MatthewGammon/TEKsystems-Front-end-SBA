@@ -22,18 +22,22 @@ body {
   background-color: #17628a;
 }
 
-.navbar ul {
+.navbar {
   display: flex;
-}
-
-.navbar ul li {
-  list-style: none;
-  padding: 2em;
 }
 
 .navbar a {
   color: white;
   text-decoration: none;
+  padding: 2em;
+  /* web-font requirement */
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 1.5rem;
+}
+
+.navbar a:hover {
+  background-color: #c9f0ff;
+  color: #17628a;
 }
 
 .header-text {
@@ -55,13 +59,54 @@ main {
 }
 
 .media {
-  min-height: 70vh;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url(../assets/images/Tidal-Logo-Background.png);
+  display: flex;
+  justify-content: space-between;
+  min-height: 50vh;
+  padding: 3em 2.5em;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  background-image: url(../assets/images/Tidal-Logo-Background.png);
   background-size: cover;
   background-position: center;
 }
 
-.media-text {
+.vid-col1,
+.vid-col2 {
+  width: 35%;
+}
+
+.vid {
+  padding: 1em;
+}
+
+.vid-text {
   color: white;
+  /* included web font */
+  font-family: 'Cormorant Garamond', serif;
+  padding: 0.5em 0em;
+}
+
+.yt-video {
+  width: 100%;
+  height: 315px;
+}
+
+.guild-info {
+  display: flex;
+  flex-direction: column;
+  background-color: #c9f0ff;
+  padding: 2em;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.about-guild,
+.guild-offers,
+.guild-requirements,
+.how-to-join {
+  padding: 0.5em;
+}
+
+.regear-img {
+  width: 100%;
 }
