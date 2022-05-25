@@ -4,6 +4,8 @@ Front-end Skill Based Assessment for TEKsystems Rising Talent program.
 
 ## Tidal Regears
 
+View the live site [here](https://front-end-sba.vercel.app/).
+
 This simple website displays information about the Albion Online guild, Tidal.
 It displays videos from guild members showcasing ZvZ content and provides info about the guild and how to join as well as some of the benefits of being a member.
 You can also view a list of regear requests that have been submitted through a separate related project that I have previously created.
