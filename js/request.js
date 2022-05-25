@@ -300,3 +300,22 @@ generateOptions(shoeArmor, 'shoe-armor');
 const handleSubmit = (event) => {
   window.alert('Thank you for submitting a regear request!');
 };
+
+const buttons = document.getElementsByClassName('submit-button');
+for (const button of buttons) {
+  // event listener to satisfy project requirements
+  button.addEventListener(
+    'mouseenter',
+    function (event) {
+      event.target.style.backgroundColor = '#17628a';
+      event.target.style.color = 'white';
+
+      // reset the properties after a short delay
+      setTimeout(function () {
+        event.target.style.backgroundColor = '';
+        event.target.style.color = '';
+      }, 500);
+    },
+    false
+  );
+}

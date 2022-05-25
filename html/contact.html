@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- external style sheets -->
+    <link rel="stylesheet" href="../css/styles.css" />
+    <!-- imported web-font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Embedded CSS to satisfy project requirements -->
+    <style>
+      .contact-me {
+        background-color: #c9f0ff;
+        padding: 1em;
+        border-radius: 5px;
+      }
+
+      .contact-me h2,
+      .contact-me p,
+      .contact-form label,
+      .contact-form textarea {
+        padding: 0.5em 0em;
+      }
+
+      .contact-form label {
+        display: inline-block;
+      }
+    </style>
+    <title>Tidal Regears | Contact</title>
+  </head>
+  <body>
+    <nav class="navbar">
+      <a href="../index.html">Home</a>
+      <a href="./regears.html">Regears</a>
+      <a href="./requirements.html">Requirements</a>
+      <a href="./request.html">Request a Regear</a>
+      <a href="./contact.html">Contact</a>
+    </nav>
+    <header class="header">
+      <div class="header-text">
+        <h1>Welcome to Tidal Regears</h1>
+        <h2>Ride the Wave or Drown!</h2>
+      </div>
+    </header>
+    <main class="contact-me">
+      <h2>Contact Me</h2>
+      <p>
+        Have questions, concerns, or feedback? Feel free to leave me a message
+        below and I will get back to you as soon as possible!
+      </p>
+      <form class="contact-form" onsubmit="handleSubmit(event)">
+        <label for="email">Email:</label>
+        <!-- regex validation on email to ensure that the email address contains only letters and numbers in the first part followed by an @ followed by a character and then a period -->
+        <!-- the pattern is checked in the browser and not manually in a script. -->
+        <!-- The requirements did not specify HOW to handle regex validation, only to include it. -->
+        <input
+          type="email"
+          name="email"
+          id="email"
+          required
+          pattern="^[A-Za-z0-9+_.-]+@(.+)$"
+        />
+        <br />
+        <label for="feedback">Message:</label>
+        <br />
+        <textarea
+          id="feedback"
+          name="feedback"
+          id="feedback"
+          cols="80"
+          rows="10"
+        ></textarea>
+        <br />
+        <input class="submit-button" type="submit" />
+      </form>
+    </main>
+    <script src="../js/contact.js"></script>
+  </body>
+</html>
