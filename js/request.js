@@ -277,6 +277,7 @@ const shoeArmor = [
 ];
 
 const generateOptions = (armorArr, type) => {
+  // select menu to satisfy project requirements
   const select = document.createElement('select');
   select.setAttribute('name', `${type}`);
   select.setAttribute('id', `${type}`);
